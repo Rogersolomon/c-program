@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int num,sum=0,n,reminder;
+	printf("Enter the number of values");
+	scanf("%d",&n);
+	printf("Enter %d number:",n);
+	scanf("%d",&num);
+	while(num>0)
+	{
+		reminder=num%10;
+		sum=sum+reminder;
+		num=num/10;
+		
+	}
+	printf("The answer is %d",sum);
+}
